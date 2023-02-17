@@ -1,0 +1,135 @@
+[
+    {
+        "intent": "First_Question",
+        "examples": [
+            "Hi Tammy how is everything?",
+            "Hows everything?",
+            "How goes it?",
+            "Hi Tammy how goes it?"
+        ],
+        "metadata": [
+            {
+                "text": "Hi, Stuart, I'm doing well. But you know that! You and your team created me!",
+                "variables": {
+                    "public": {}
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Intro",
+        "examples": [
+            "You're right about that Can you tell the audience a bit about yourself and the POC we are conducting?",
+            "You're right about that Can you tell the audience about yourself and the POC we are conducting?",
+            "You are right about that Can you tell the audience about yourself and the POC?",
+            "Can you tell the audience about yourself and the POC?",
+            "Can you tell the audience about yourself in the POC?"
+        ],
+        "metadata": [
+            {
+                "text": "Yes, I'm happy to. I'm Tammy, a Digital Human. I'm being prepared for a Proof-of-Concept with the Southern California PMG. We're going to see if I can provide useful therapeutic exercises for kids with Autism Spectrum Disorder or ASD. These kids attend in-person therapy sessions but also have at-home exercises to learn pragmatic language skills. ",
+                "variables": {
+                    "public": {}
+                }
+            }
+        ]
+    },
+    {
+        "intent": "POC",
+        "examples": [
+            "yes tell me more about the POC",
+            "yes tell me more!",
+            "yes Tell more about the POC"
+        ],
+        "metadata": [
+            {
+                "text": "In our POC, I will lead the at-home exercises with the kids, helping them work through a short conversation. While we do that, I am able to record metrics that assist the clinicians in understanding how effective the exercises are.  The Kaiser team has configured me to work well with kids I'll be helping. I'm somewhat racially ambiguous, my demeanor is happy, and I speak in a tone similar to most of their therapists.  If we are successful, the Kaiser team will craft Digital Humans that best align with the kid's needs, perhaps looking more like them if that is thought to help.",
+                "variables": {
+                    "public": {}
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Capabilities",
+        "examples": [
+            "I'm so glad to hear that Tammy Tell us more about your capabilties",
+            "Tell us more about the capabilities",
+            "Tell more about the capabilities",
+            "excellent tell us more about your capabilities"
+        ],
+        "metadata": [
+            {
+                "text": "As a Digital Human, I am able to record metrics that a conventional bot cannot. I can respond differently if the child smiles, frowns, or looks confused and detect if they are making eye contact or not. ",
+                "variables": {
+                    "public": {}
+                }
+            }
+        ]
+    },
+    {
+        "intent": "rollout",
+        "examples": [
+            "Tammy how will the POC work?",
+            "How does the POC work?",
+            "How will the POC work?",
+            "How's the POC work?",
+            "howell the POC work?",
+            "how will the plc work?",
+            "Howell the plc work?",
+            "Hows the plc work?",
+            "How does the plc work",
+            "Tammy howell the poc work?",
+            "Tammy howell the plc work?"
+        ],
+        "metadata": [
+            {
+                "text": "Once the clinicians approve our implementation, 5 of our members will participate in a Proof of Concept for a duration of 3 months.  The clinicians will have full transcripts and an analytics dashboard for monitoring progress. Additionally, parent/guardians will have a support email in case of questions or concerns. Parents also have key words to pause or stop the conversation if the child is having too hard a time. I'm really hoping that I can help these children with their language and conversational skills. If so, it will be a very positive step for themselves and their families. ",
+                "variables": {
+                    "public": {}
+                }
+            }
+        ]
+    },
+    {
+        "intent": "End",
+        "examples": [
+            "I hope so too Tammy Do you have anything else you'd like to say?",
+            "Anything before we finish?",
+            "Anything else before we finish?",
+            "Do you have anything else before we finish?",
+            "I'm fine is there anything else you'd like to say?"
+        ],
+        "metadata": [
+            {
+                "text": "I do Stuart. There are other potential use cases for me at Kaiser. We'll share more about those as they move further along.  And to everyone listening, please let Stuart and the Art of the Possible Team know if you have ideas for how I might be of use at Kaiser. ",
+                "variables": {
+                    "public": {}
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Bye",
+        "examples": [
+            "Thanks Tammy it's been great hearing about the POC Bye!",
+            "Bye!",
+            "It's been great hearing about the POC Bye",
+            "It's been great hearing about the POC By",
+            "bye Tammy it's been great hearing about the POC"
+        ],
+        "metadata": [
+            {
+                "text": "Bye, everyone! @close()",
+                "variables": {
+                    "public": {}
+                }
+            }
+        ]
+    },
+    {
+        "intent": "Thanks",
+        "examples": [],
+        "metadata": []
+    }
+]
